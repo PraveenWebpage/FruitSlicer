@@ -1,0 +1,170 @@
+body
+{
+  background:radial-gradient(circle,#badbd6,#7b9ab2);
+}
+
+#container
+{
+  height: 600px;
+  width: 750px;
+  background-color:#a38a8a;
+  margin:10px auto;
+  padding:20px;
+  border-radius:15px;
+  position:relative;
+  box-shadow:4px 4px 6px 1px;
+}
+
+#score-box
+{
+  background-color:#8c7a19;
+  position: absolute;
+  left:680px;
+  top:10px;
+  margin: 2px;
+  width:100px;
+  height:50px;
+  font-size:20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow:0px 4px 4px;
+}
+#correct-message
+{
+  background-color:green;
+  width:60px;
+  padding:10px;
+  position:absolute;
+  left:300px;
+  color:white;
+  display:none;
+}
+
+#wrong-message
+{
+  background-color:red;
+  width:60px;
+  padding:10px;
+  position:absolute;
+  left:300px;
+  color:white;
+  display:none;
+}
+
+#fruits-container
+{
+  width:650px;
+  height:400px;
+  background-color:white;
+  margin:60px auto 0px auto;
+  box-shadow:0px 4px   3px ;
+  font-size:90px;
+  text-align:center;
+  line-height:140px;
+
+}
+
+#instruction-box
+{
+  width:450px;
+  background-color:#99ba89;
+  height:40px;
+  margin:10px auto 10px auto;
+  line-height:35px;
+  text-align:center;
+  box-shadow:0px 4px   3px ;
+}
+
+
+#start-reset
+{
+  width:100px;
+  height:50px;
+  background-color:white;
+  font-size:20px;
+  line-height:50px;
+  text-align:center;
+  color:blue;
+  box-shadow:4px 4px   3px black;
+  margin:10px auto 5px auto;
+  cursor:pointer;
+
+}
+
+#start-reset:hover
+{
+  color:green;
+  background-color:#99ba89;
+}
+
+#start-reset:active
+{
+  box-shadow:0px 0px   3px black;
+}
+
+#life-box
+{
+  width:150px;
+  height:50px;
+  background-color:#8c7a19;
+  position:absolute;
+  left:20px;
+  top:10px;
+  font-size:30px;
+  text-align: center;
+  line-height:50px;
+  border-radius: 15px;
+  margin: 2px;
+  display: none;
+
+}
+
+.life
+{
+width:16px;
+height: 16px;
+margin: 0px;
+
+}
+
+#fruits-container
+{
+  width:650px;
+  height:400px;
+  margin:50px auto 10px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.fruits
+{
+
+  display: none;
+  width: 100px;
+  height:120px;
+  position: absolute;
+
+}
+
+#gameover-box
+{
+  width:600px;
+  height:250px;
+  background-color:grey;
+  position:absolute;
+  top:150px;
+  left:95px;
+  font-size:40px;
+  text-align:center;
+  line-height:100px;
+  color:red;
+  z-index:2;
+  display:none;
+
+
+
+
+
+
+
+}
